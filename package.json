@@ -7,7 +7,10 @@
   "dependencies": {
     "@babel/runtime": "^7.0.0",
     "bcrypt": "^3.0.2",
+    "google-search-results-nodejs": "0.0.1",
+    "indix-api-nodejs": "^0.2.1",
     "meteor-node-stubs": "^0.4.1",
+    "opengraph-io": "^1.1.2",
     "simpl-schema": "^1.5.3"
   }
 }

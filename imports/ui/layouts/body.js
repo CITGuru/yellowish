@@ -6,8 +6,7 @@ import { Products } from '../../api/collections.js';
 import { PriceRegisters } from '../../api/collections.js';
 import { Stores } from '../../api/collections.js';
 import { Wishlists } from '../../api/collections.js';
-
-import './body.html';
+import '../../api/methods.js'
 
 import '../pages/About.html';
 import '../pages/Account.html';
@@ -42,3 +41,18 @@ import '../partials/SignUpForm.html';
 import '../partials/Wish.html';
 import '../partials/WishBox.html';
 import '../partials/WishDetails.html';
+
+BlazeLayout.setRoot('body');
+
+if(Meteor.isClient){
+    Template.Jumbotron.events({
+        'click a[id=testbutton]': function(){
+            Meteor.call('runScrape');
+        }
+    }),
+    Template.Wishlist.helpers({
+        'user-wishlist': function(){
+            Meteor.subscribe('current-user-wishlist');
+        }
+    });
+};

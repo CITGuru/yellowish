@@ -22,11 +22,15 @@ session
 aldeed:collection2
 aldeed:autoform
 accounts-password
+accounts-base
+useraccounts:core
+useraccounts:materialize
+useraccounts:flow-routing
+raix:handlebar-helpers
 underscore
 http
 kadira:flow-router
 kadira:blaze-layout
-accounts-ui
 meteortoys:allthings
 dburles:collection-helpers
-twbs:bootstrap
+materialize:materialize
