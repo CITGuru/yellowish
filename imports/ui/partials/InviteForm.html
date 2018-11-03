@@ -1,8 +1,22 @@
 <template name='InviteForm'>
-        <div>
-            <h1>InviteForm</h1>
-        </div>
-        <div>
-            <button href="/home">Back to Home</button>
-        </div>
+       <div class="row">
+           <div class="form-wrapper col l6 s12">
+               <div class="card br">
+                   <div class="card-content">
+                        <ul class="social-icon">
+                            <li><a href=""><img src="images/twitter-round-icon.png"></a></li>
+                            <li><a href=""><img src="images/facebook-round-icon.png"></a></li>
+                            <li><a href=""><img src="images/mail-black-round-icon.png"></a></li>
+                        </ul>
+                        <form class="">
+                            <textarea style="height:50px!important;" class="yellowish-control" placeholder="Write the email address seperated by comma"></textarea>
+                            <input type="text" class="yellowish-control" id="name" placeholder="Topic">                            
+                            <div class="textarea editable" contenteditable="true">Hey guys! Check this out. Yellowish is my new shopping assistant and helps me save a lot of money and time. <strong>http://www.yellowish.app</strong></div>
+                            <button class="btn yellowish-btn yellowish-btn-block waves ">Send Email</button>
+                        </form>
+                   </div>
+                    
+               </div>
+           </div>
+       </div>
 </template>

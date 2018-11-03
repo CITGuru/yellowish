@@ -1,0 +1,149 @@
+<template name='HomeLoggedIn'>
+        <style>
+            body {
+                background: #1e1e65!important;
+            }
+        </style>
+        
+        {{> HeaderCenter }}
+        {{> ProductsPopUp }}
+
+        <main class="container-fluid">
+            <h5 class="color-yellow">My wishes</h5>
+            <div class="row">
+                <div class="col l4 s12">
+                    <div class="card products">
+                        <div class="card-content">
+                            <div class="col l5 s5">
+                                <img src="">
+                            </div>
+                            <div class="col l7 s7">
+                                <p style="font-weight:500;">Product</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae facere ratione illo, </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l4 s12">
+                    <div class="card products">
+                        <div class="card-content">
+                            <div class="col l5 s5">
+                                <img src="">
+                            </div>
+                            <div class="col l7 s7">
+                                <p style="font-weight:500;">Product</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae facere ratione illo, </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l4 s12">
+                    <div class="card products" id="2934830340">
+                        <div class="card-content">
+                            <div class="col l5 s5">
+                                <img src="">
+                            </div>
+                            <div class="col l7 s7">
+                                <p style="font-weight:500;">Product</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae facere ratione illo, </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l4 s12">
+                    <div class="card products" id="2934830340">
+                        <div class="card-content">
+                            <div class="col l5 s5">
+                                <img src="">
+                            </div>
+                            <div class="col l7 s7">
+                                <p style="font-weight:500;">Product</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae facere ratione illo, </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l4 s12">
+                    <div class="card products">
+                        <div class="card-content">
+                            <div class="col l5 s5">
+                                <img src="">
+                            </div>
+                            <div class="col l7 s7">
+                                <p style="font-weight:500;">Product</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae facere ratione illo, </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l4 s12">
+                    <div class="card products">
+                        <div class="card-content">
+                            <div class="col l5 s5">
+                                <img src="">
+                            </div>
+                            <div class="col l7 s7">
+                                <p style="font-weight:500;">Product</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae facere ratione illo, </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l4 s12">
+                    <div class="card products">
+                        <div class="card-content">
+                            <div class="col l5 s5">
+                                <img src="">
+                            </div>
+                            <div class="col l7 s7">
+                                <p style="font-weight:500;">Product</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae facere ratione illo, </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l4 s12">
+                    <div class="card products">
+                        <div class="card-content">
+                            <div class="col l5 s5">
+                                <img src="">
+                            </div>
+                            <div class="col l7 s7">
+                                <p style="font-weight:500;">Product</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae facere ratione illo, </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l4 s12">
+                    <div class="card products">
+                        <div class="card-content">
+                            <div class="col l5 s5">
+                                <img src="">
+                            </div>
+                            <div class="col l7 s7">
+                                <p style="font-weight:500;">Product</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae facere ratione illo, </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="page-footer yellow">
+        {{> Footer}}
+        </footer>
+        <script>
+            var popUp = document.getElementById("2934830340")
+            var products = document.querySelectorAll(".card.products")
+            products.forEach((e)=>{
+                e.addEventListener("mouseover", (ev)=>{
+                    console.log(e);
+                    console.log(ev);
+                    var offSetTop = ev.target.offsetTop;
+                    var offSetLeft = ev.target.offsetLeft;
+                    
+                });
+            })
+        </script>
+    </template>

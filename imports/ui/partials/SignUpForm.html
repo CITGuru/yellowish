@@ -1,8 +1,39 @@
 <template name='SignUpForm'>
-        <div>
-            <h1>Welcome to SignUpForm</h1>
-        </div>
-        <div>
-            <button href="/home">Back to Home</button>
-        </div>
+        <div class="row">
+                <div class="form-wrapper col l5 s12">
+                    <button class="btn btn-social facebook">Login with Facebook</button>
+                    <button class="btn btn-social google">Login with Google</button>
+                    <form class="">
+                        <div class="input-field col s12">
+                            <input type="email" class="" id="email" >
+                            <label for="name">Email</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <input type="password" class="" id="password" >
+                            <label for="password">Password</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <input type="password" class="" id="rpassword" >
+                            <label for="rpassword">Repeat Password</label>
+                        </div>
+                        <div class="">
+                            <div class="input-field col s6">
+                                <input id="birthday" type="date" class="validate">
+                                <label for="birthday">Birthday</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <select name="gender">
+                                <option value="" disabled selected>Choose</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                                </select>
+                                <label for="gender">Gender</label>
+                            </div>
+                        </div>
+                         
+                        <button class="btn yellowish-btn yellowish-btn-block waves ">Send</button>
+                    </form>
+                </div>
+            </div>     
 </template>

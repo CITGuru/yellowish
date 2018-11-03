@@ -1,8 +1,14 @@
 <template name='Invite'>
-        <div>
-            {{> BoxArea}}
-        </div>
-        <div>
+        <style>
+            body {
+                background: #1e1e65!important;
+            }
+        </style>
+        {{> HeaderCenter }}
+        <main class="container">
             {{> InviteForm}}
-        </div>
+        </main>
+        <footer class="page-footer yellow">
+        {{> Footer}}
+        </footer>
 </template>
