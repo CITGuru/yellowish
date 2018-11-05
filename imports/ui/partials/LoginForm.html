@@ -1,5 +1,24 @@
 <template name='LoginForm'>
-        <div>
-            {{> atForm}}
+<div class="row">
+    <div class="form-wrapper col l5 s12">
+            <button class="btn btn-social facebook">Login with Facebook</button>
+            <button class="btn btn-social google">Login with Google</button>
+            <form class="">
+                <div class="input-field col s12">
+                    <input type="email" class="" id="email" >
+                    <label for="name">Email</label>
+                </div>
+                <div class="input-field col s12">
+                    <input type="password" class="" id="password" >
+                    <label for="password">Password</label>
+                </div>
+                <div class="input-field col s12">
+                    <input type="password" class="" id="rpassword" >
+                    <label for="rpassword">Repeat Password</label>
+                </div>
+                <button class="btn yellowish-btn yellowish-btn-block waves ">Send</button>
+                <p class="center">Don't have an account? <a href="/sign-up-1">Register</a></p>
+            </form>
         </div>
+    </div>     
 </template>

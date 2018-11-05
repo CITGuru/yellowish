@@ -12,6 +12,7 @@ import '../css/main.css'
 import '../pages/About.html';
 import '../pages/Account.html';
 import '../pages/SignUp.html';
+import '../pages/Login.html';
 import '../pages/SignUp2.html';
 import '../pages/Dashboard.html';
 import '../pages/Ecommerce.html';
