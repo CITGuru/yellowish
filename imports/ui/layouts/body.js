@@ -7,6 +7,8 @@ import { PriceRegisters } from '../../api/collections.js';
 import { Stores } from '../../api/collections.js';
 import { Wishlists } from '../../api/collections.js';
 import '../../api/methods.js'
+import '../materialize/css/materialize.min.css'
+import '../materialize/js/materialize.min.js'
 import '../css/main.css'
 
 import '../pages/About.html';

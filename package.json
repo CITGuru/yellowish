@@ -2,7 +2,7 @@
   "name": "yellowish-app",
   "private": true,
   "scripts": {
-    "start": "meteor run --port 4000"
+    "start": "meteor run --port 3000"
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0",

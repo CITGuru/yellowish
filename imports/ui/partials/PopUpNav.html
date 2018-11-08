@@ -1,14 +1,14 @@
 <template name="PopUpNav">
-    <!--<div>
-        <ul id = "dropdown" class = "dropdown-content">
-         <li><a href = "#">Inbox<span class = "badge">12</span></a></li>
-         <li><a href = "#!">Unread<span class = "new badge">4</span></a></li>
-         <li><a href = "#">Sent</a></li>
-         <li class = "divider"></li>
-         <li><a href = "#">Outbox<span class = "badge">14</span></a></li>
-      </ul>
-      
-      <a class = "btn dropdown-button" href = "#" data-activates = "dropdown">Mail Box
-         <i class = "mdi-navigation-arrow-drop-down right"></i></a>
-    </div>-->
+    <div class="navbar-custom right">
+       <div class="menu-bar"> 
+        <a class='dropdown-trigger menu' href='#' data-target='menu'><i class="material-icons color-yellow">sort</i></a>
+        <ul id='menu' class='dropdown-content bg-light-yellow'>
+            <li><a href="#!"><i class="material-icons menu-i">format_list_bulleted</i> Wishlist</a></li>
+            <li><a href="#!"><i class="material-icons menu-i">settings</i> Configurations</a></li>
+            <li><a href="#!"><i class="material-icons menu-i">notifications</i> Browser Extensions</a></li>
+            <li><a href="#!"><i class="material-icons menu-i">help</i> Help</a></li>
+            <li><a href="#!"><i class="material-icons menu-i">favorite</i> Invite a Friend</a></li>
+        </ul>
+    </div>
+    </div>
 </template>

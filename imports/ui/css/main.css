@@ -27,7 +27,22 @@
     color: #fdba00;
 }
 
+.bg-yellow {
+    color: #1e1e65;
+    background-color: #fdba00!important;
+}
+.bg-light-yellow {
+    color: #1e1e65;
+    background-color: #ffd665!important;
+}
+
 .color-yellow {
+    color: #fdba00;
+    background-color: transparent!important;
+    font-weight: 500;
+}
+
+.color-light-yellow {
     color: #ffd665;
     background-color: transparent!important;
     font-weight: 500;
@@ -49,9 +64,17 @@ main.container {
     margin: 0 auto;
 }
 
+.navbar-custom.right {
+    padding: 10px 25px;
+}
+
+.navbar-custom.right i {
+    font-size: 35px;
+}
+
 .header {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .form-wrapper {
@@ -254,4 +277,41 @@ li.indicator-item.active {
 
 .products-popup-wrapper {
     width: 350px;
+}
+
+.dropdown-content.bg-light-yellow {
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    color: #1e1e65!important;
+    width: 280px!important;
+    top: 55px!important;
+    /* left: 1115px!important; */
+
+}
+
+.dropdown-content.bg-light-yellow li a  {
+    font-size: 15px;
+    color: inherit;
+    display: block;
+    line-height: 2;
+    padding: 14px 15px;
+}
+.dropdown-content.bg-light-yellow li {
+    color: #1e1e65!important;
+}
+.dropdown-content.bg-light-yellow li:hover, .dropdown-content.bg-light-yellow li.active {
+    background-color: #1e1e65;
+    color: #fdba00!important;
+}
+
+.dropdown-content.bg-light-yellow li i.menu-i {
+    background-color: white;
+    font-size: 25px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 1;
+    padding: 5px;
+    vertical-align: middle;
+    margin: 0 15px 0 0;
 }
