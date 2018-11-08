@@ -277,6 +277,12 @@ li.indicator-item.active {
 
 .products-popup-wrapper {
     width: 350px;
+    display: block;
+    transform-origin: 0px 100% 0px;
+    opacity: 1;
+    transform: scaleX(1) scaleY(1);
+    position: absolute;
+    z-index: 9999999;
 }
 
 .dropdown-content.bg-light-yellow {
